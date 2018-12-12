@@ -19,20 +19,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sz4-dK-2iF">
-                                <rect key="frame" x="110" y="256" width="155" height="155"/>
+                                <rect key="frame" x="110" y="229" width="155" height="155"/>
                                 <state key="normal" image="Record"/>
                                 <connections>
                                     <action selector="onRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lyt-hL-evW"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tab To Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NPD-ER-bY9">
-                                <rect key="frame" x="132.5" y="419" width="110" height="21"/>
+                                <rect key="frame" x="132.5" y="397" width="110" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buc-B1-jAd">
-                                <rect key="frame" x="159" y="465" width="57" height="57"/>
+                                <rect key="frame" x="159" y="423" width="57" height="57"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="57" id="Is5-em-D49"/>
                                     <constraint firstAttribute="height" constant="57" id="yiR-Va-wSK"/>
@@ -45,10 +45,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="buc-B1-jAd" firstAttribute="top" secondItem="Sz4-dK-2iF" secondAttribute="bottom" constant="54" id="55g-Ac-5Bi"/>
-                            <constraint firstItem="Sz4-dK-2iF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="NRQ-1Q-9uQ"/>
+                            <constraint firstItem="buc-B1-jAd" firstAttribute="top" secondItem="Sz4-dK-2iF" secondAttribute="bottom" constant="39" id="55g-Ac-5Bi"/>
+                            <constraint firstItem="Sz4-dK-2iF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-27" id="NRQ-1Q-9uQ"/>
                             <constraint firstItem="NPD-ER-bY9" firstAttribute="centerX" secondItem="Sz4-dK-2iF" secondAttribute="centerX" id="j62-LS-3ni"/>
-                            <constraint firstItem="NPD-ER-bY9" firstAttribute="top" secondItem="Sz4-dK-2iF" secondAttribute="bottom" constant="8" id="wxF-9J-3jd"/>
+                            <constraint firstItem="NPD-ER-bY9" firstAttribute="top" secondItem="Sz4-dK-2iF" secondAttribute="bottom" constant="13" id="wxF-9J-3jd"/>
                             <constraint firstItem="buc-B1-jAd" firstAttribute="centerX" secondItem="Sz4-dK-2iF" secondAttribute="centerX" id="y0b-nf-16L"/>
                             <constraint firstItem="Sz4-dK-2iF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zFx-lz-Z3V"/>
                         </constraints>
