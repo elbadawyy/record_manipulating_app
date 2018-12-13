@@ -41,5 +41,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>Privacy - Microphone Usage Description</key>
+    <string>${PRODUCT_NAME} Microphone use</string>
 </dict>
 </plist>

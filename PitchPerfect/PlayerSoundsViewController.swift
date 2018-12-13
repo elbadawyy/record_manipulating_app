@@ -53,6 +53,10 @@ class PlayerSoundsViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        for button: UIButton in [snailButton, rabbitButton, chipmunkButton, vaderButton, echoButton, reverbButton] {
+            button.contentMode = .scaleAspectFit
+            button.imageView?.contentMode = .scaleAspectFit
+        }
         setupAudio()
     }
     
